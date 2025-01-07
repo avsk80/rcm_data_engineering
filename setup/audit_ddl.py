@@ -18,5 +18,14 @@
 # COMMAND ----------
 
 # MAGIC %sql
+# MAGIC select * from rcm_catalog.audit.load_logs;
+
+# COMMAND ----------
+
+# MAGIC %sql
 # MAGIC CREATE SCHEMA IF NOT EXISTS rcm_catalog.silver;
 # MAGIC CREATE SCHEMA IF NOT EXISTS rcm_catalog.gold;
+
+# COMMAND ----------
+
+
