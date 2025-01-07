@@ -1,4 +1,8 @@
 -- Databricks notebook source
+USE CATALOG rcm_catalog;
+
+-- COMMAND ----------
+
 create table if not exists gold.fact_transactions
 (
   TransactionID string,

@@ -22,8 +22,10 @@ Overall process is as follows -
 
 Note: All the steps are combined together in ADF activities and executed as a pipeline.
 
-Tech Stack used:
+**Tech Stack used:**
 
 Coding - Python
+
 Azure - Data Factory, SQL DB, Gen2 storage containers, Databricks
+
 Version control - Git

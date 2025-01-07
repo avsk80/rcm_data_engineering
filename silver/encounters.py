@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC USE CATALOG rcm_catalog;
+
+# COMMAND ----------
+
 # MAGIC  %sql
 # MAGIC  -- Create temporary views for the parquet files
 # MAGIC  CREATE OR REPLACE TEMP VIEW hosa_encounters
