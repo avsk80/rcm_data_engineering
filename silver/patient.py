@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC USE CATALOG rcm_catalog;
+
+# COMMAND ----------
+
 #Reading Hospital A patient data 
 df_hosa=spark.read.parquet("/mnt/bronze/hosa/patients")
 df_hosa.createOrReplaceTempView("patients_hosa")

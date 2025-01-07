@@ -1,5 +1,10 @@
 # Databricks notebook source
 # MAGIC %sql
+# MAGIC USE CATALOG rcm_catalog;
+
+# COMMAND ----------
+
+# MAGIC %sql
 # MAGIC CREATE TABLE IF NOT EXISTS gold.dim_cpt_code
 # MAGIC (
 # MAGIC cpt_codes string,
