@@ -7,13 +7,13 @@ This project is built to serve the Finance depratment of a Hospital to improve a
 
 3) Moving on, the next phase will be to build data pipeline using Azure Data Factory. I have built a ADF pipeline as shown below in the pictures.
 
-![1](/Workspace/Users/avskkrishaz101@outlook.com/rcm_data_engineering/pics/1-ss.png)
+![1](pics/1-ss.png)
 
-![2](/Workspace/Users/avskkrishaz101@outlook.com/rcm_data_engineering/pics/2-ss.png)
+![2](pics/2-ss.png)
 
-![3](/Workspace/Users/avskkrishaz101@outlook.com/rcm_data_engineering/pics/3-ss.png)
+![3](pics/3-ss.png)
 
-![4](/Workspace/Users/avskkrishaz101@outlook.com/rcm_data_engineering/pics/4-ss.png)
+![4](pics/4-ss.png)
 
 Overall process is as follows - 
 1) First lookup for the config file that holds information related to what tables need to be fetched from the SQL DB and stored to bronze layer. From the configs we can set properties like is_active flag, full load or incremental, if incremental, what is the watermark column to refer to etc.
